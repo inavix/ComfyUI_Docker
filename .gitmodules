@@ -7,3 +7,6 @@
 [submodule "custom_nodes/ComfyUI-Manager"]
 	path = custom_nodes/ComfyUI-Manager
 	url = https://github.com/ltdrdata/ComfyUI-Manager.git
+[submodule "custom_nodes/comfyui-tooling-nodes"]
+	path = custom_nodes/comfyui-tooling-nodes
+	url = https://github.com/Acly/comfyui-tooling-nodes.git
