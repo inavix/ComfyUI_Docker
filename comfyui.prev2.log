@@ -1,0 +1,47 @@
+** ComfyUI startup time: 2024-02-27 07:15:12.691785
+[2024-02-27 07:15] ** Platform: Linux
+[2024-02-27 07:15] ** Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+[2024-02-27 07:15] ** Python executable: /venv/bin/python3
+[2024-02-27 07:15] ** Log path: /app/comfyui.log
+[2024-02-27 07:15] 
+Prestartup times for custom nodes:
+[2024-02-27 07:15]    0.0 seconds: /app/custom_nodes/ComfyUI-Manager
+[2024-02-27 07:15] 
+[2024-02-27 07:15] Total VRAM 20169 MB, total RAM 64159 MB
+[2024-02-27 07:15] Set vram state to: NORMAL_VRAM
+[2024-02-27 07:15] Device: cuda:0 NVIDIA RTX A4500 : cudaMallocAsync
+[2024-02-27 07:15] VAE dtype: torch.bfloat16
+[2024-02-27 07:15] Using pytorch cross attention
+[2024-02-27 07:15] ### Loading: ComfyUI-Manager (V2.8.3)
+[2024-02-27 07:15] ### ComfyUI Revision: UNKNOWN (The currently installed ComfyUI is not a Git repository)
+[2024-02-27 07:15] ### Loading: ComfyUI-Impact-Pack (V4.80)
+[2024-02-27 07:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-02-27 07:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-02-27 07:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-02-27 07:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-02-27 07:15] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-02-27 07:15] 
+Import times for custom nodes:
+[2024-02-27 07:15]    0.0 seconds: /app/custom_nodes/comfyui-tooling-nodes
+[2024-02-27 07:15]    0.0 seconds: /app/custom_nodes/sdxl_prompt_styler
+[2024-02-27 07:15]    0.0 seconds: /app/custom_nodes/ComfyUI-Manager
+[2024-02-27 07:15]    0.8 seconds: /app/custom_nodes/ComfyUI-Impact-Pack
+[2024-02-27 07:15] 
+[2024-02-27 07:15] [Impact Pack] Wildcards loading done.
+[2024-02-27 07:15] Starting server
+[2024-02-27 07:15] 
+[2024-02-27 07:15] To see the GUI go to: http://0.0.0.0:8188
+[2024-02-27 07:15] got prompt
+ERROR:root:Failed to validate prompt for output 352:
+[2024-02-27 07:15] ERROR:root:* VAELoader 284:
+[2024-02-27 07:15] ERROR:root:  - Required input is missing: vae_name
+[2024-02-27 07:15] ERROR:root:Output will be ignored
+[2024-02-27 07:15] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-02-27 07:16] got prompt
+[2024-02-27 07:16] ERROR:root:Failed to validate prompt for output 352:
+[2024-02-27 07:16] ERROR:root:* LoadImage 110:
+[2024-02-27 07:16] ERROR:root:  - Custom validation failed for node: image - Invalid image file: 11111 (1).jpg
+[2024-02-27 07:16] ERROR:root:* VAELoader 284:
+[2024-02-27 07:16] ERROR:root:  - Value not in list: vae_name: 'sdxlVAE_v10.safetensors' not in []
+[2024-02-27 07:16] ERROR:root:Output will be ignored
+[2024-02-27 07:16] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}

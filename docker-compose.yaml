@@ -1,0 +1,25 @@
+version: "3.3"
+services:
+  comfyui:
+    container_name: comfyui
+    build:
+      context: .
+    ports:
+      - "8188:8188" # 确保端口映射符合你的应用需求
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/app
+      - /tmp:/tmp
+      - ./models:/app/models
+      - ./custom_nodes:/app/custom_nodes
+    restart:
+      always
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0'] # 根据需要指定使用的GPU设备ID
+              capabilities: [gpu]
+
