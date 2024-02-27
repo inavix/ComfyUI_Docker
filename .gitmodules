@@ -1,3 +1,6 @@
 [submodule "custom_nodes/sdxl_prompt_styler"]
 	path = custom_nodes/sdxl_prompt_styler
 	url = https://github.com/twri/sdxl_prompt_styler.git
+[submodule "custom_nodes/ComfyUI-Impact-Pack"]
+	path = custom_nodes/ComfyUI-Impact-Pack
+	url = https://github.com/ltdrdata/ComfyUI-Impact-Pack.git
